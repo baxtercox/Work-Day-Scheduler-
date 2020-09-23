@@ -1,0 +1,88 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+  background-image: url(https://www.solidbackgrounds.com/images/website/560x315/560x315-abstract-ice-water-free-website-background-image.jpg);
+}
+
+textarea {
+  background: transparent;
+  border: black;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: cornsilk;
+  color: blueviolet;
+  border-radius: 0;
+  border-bottom: 15px solid blueviolet;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: lightpink;
+  color: rgb(132, 0, 255);
+  border-top: 1px solid blueviolet;
+  border-left: 1px solid blueviolet;
+  border-bottom: 1px solid blueviolet;
+}
+
+.past {
+  background-color: red;
+  color: white;
+}
+
+.present {
+  background-color: blue;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: orange;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.lead {
+  color: rgb(255, 0, 191);
+  font-size: x-large;
+  text-shadow: darkorchid;
+}
+@media screen and (max-width: 600px) {
+  div.time-block {
+    display: inline-flexbox;
+  }
+}
